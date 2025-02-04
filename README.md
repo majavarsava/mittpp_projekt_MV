@@ -4,9 +4,10 @@ Repozitorij za projekt iz kolegija Metode i tehnike testiranja programske podrš
 
 ## Prije pokretanja projekta, potrebno je:
 1. Imati instaliran ```IntelliJ IDEA``` i ```Java JDK```.
+   
       Dostupno na: http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
                    https://www.jetbrains.com/idea/download/#section=windows
-2. Preuzeti i instalirati ```ChromeDriver``` za pokretanje testova u Chromeu.
+3. Preuzeti i instalirati ```ChromeDriver``` za pokretanje testova u Chromeu.
       Dostupno na: https://developer.chrome.com/docs/chromedriver/downloads/version-selection
 
 ## Koraci instaliranja projekta:
