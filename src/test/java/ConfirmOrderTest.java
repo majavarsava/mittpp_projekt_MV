@@ -7,7 +7,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class ConfirmOrder {
+public class ConfirmOrderTest {
     // WebDriver instance
     public WebDriver driver;
     // Test URL
@@ -21,7 +21,7 @@ public class ConfirmOrder {
     }
 
     @Test
-    public void confirmOrder() throws InterruptedException {
+    public void confirmOrderTest() throws InterruptedException {
         driver.manage().window().maximize();
         Thread.sleep(2000);
 
@@ -60,8 +60,8 @@ public class ConfirmOrder {
         addToCart.click();
         Thread.sleep(2000);
 
-        WebElement proceedToCheckot = driver.findElement(By.xpath("//a[contains(@href, 'newOrderForm')]"));
-        proceedToCheckot.click();
+        WebElement proceedToCheckout = driver.findElement(By.xpath("//a[contains(@href, 'newOrderForm')]"));
+        proceedToCheckout.click();
         Thread.sleep(3000);
 
         WebElement cardType = driver.findElement(By.name("order.cardType"));
