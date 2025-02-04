@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="AllTests">
+    <test name="MiTTPPtest">
+        <classes>
+            <class name="SearchTest"/>
+            <class name="RegisterTest"/>
+            <class name="SignInTest"/>
+            <class name="UpdateUserInfoTest"/>
+            <class name="RemoveFromCartTest"/>
+            <class name="UpdatingCartTest"/>
+            <class name="ConfirmOrder"/>
+        </classes>
+    </test>
+</suite>
