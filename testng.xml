@@ -10,7 +10,7 @@
             <class name="UpdateUserInfoTest"/>
             <class name="RemoveFromCartTest"/>
             <class name="UpdatingCartTest"/>
-            <class name="ConfirmOrder"/>
+            <class name="ConfirmOrderTest"/>
         </classes>
     </test>
 </suite>
